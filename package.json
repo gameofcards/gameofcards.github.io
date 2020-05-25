@@ -6,7 +6,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gh-pages -d public -b master",
+    "commit": "gatsby build && node github-deploy.js"
   },
   "dependencies": {
     "gatsby": "^2.15.9",

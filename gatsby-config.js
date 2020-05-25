@@ -1,17 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Document by Code Bushi`,
-    name: `Code Bushi`,
-    siteUrl: `https://gatsby-theme-document.netlify.com`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Game of Cards Documentation`,
+    name: `Michael Dito`,
+    siteUrl: `https://gameofcards.github.io`,
+    description: `The documentation site for all things game of cards.`,
     social: [
       {
         name: `github`,
-        url: `https://github.com/codebushi/gatsby-theme-document`
-      },
-      {
-        name: `twitter`,
-        url: `https://twitter.com/HuntaroSan`
+        url: `https://github.com/gameofcards`
       }
     ],
     sidebarConfig: {

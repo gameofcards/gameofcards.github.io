@@ -1,17 +1,20 @@
 {
-  "name": "gatsby-theme-document-example",
-  "author": "Code Bushi",
-  "repository": "https://github.com/codebushi/gatsby-theme-document-example",
+  "name": "gameofcards.github.io",
+  "author": "Michael Dito",
+  "repository": "https://github.com/gameofcards/gameofcards.github.io",
   "version": "1.0.0",
-  "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
     "gatsby": "^2.15.9",
     "gatsby-theme-document": "1.0.8",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
